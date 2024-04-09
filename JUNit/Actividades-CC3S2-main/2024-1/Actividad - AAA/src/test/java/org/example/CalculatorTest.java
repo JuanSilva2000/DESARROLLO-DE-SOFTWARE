@@ -66,13 +66,13 @@ public class CalculatorTest {
         //Arrange
         Calculador calculador = new Calculador();
         int numberA = 5;
-        int numberB = 6;
+        int numberB = 7;
 
         //Act
         int result = calculador.multiplicacion(numberA,numberB);
 
         //Assert
-        assertEquals(30,result,"5x6 deberia ser 30");
+        assertEquals(35,result,"5x7 deberia ser 35");
     }
 
     @Test
